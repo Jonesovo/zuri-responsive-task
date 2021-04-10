@@ -96,6 +96,17 @@ ul li a:hover {
 }
 
 
+@media screen and (max-width:500px){
+    div.logo {
+        font-size: 1rem;
+        position: absolute;
+        left: 30px;
+        margin: auto;
+        padding: 0%;
+        color: #bcc3c7;
+    }
+}
+
 div.hero-section {
     background: #304353;
     padding: 10rem;
@@ -219,7 +230,7 @@ div.hero-background-pos {
         box-shadow: 2px 2px 15px 0 rgb(135 135 135 / 40%);
         padding: 15px 40px;
         width: 550px;
-        height: 300px;
+        height: 350px;
         position: relative;
         
     }
@@ -236,6 +247,25 @@ div.hero-background-pos {
         text-align: center;
     }
 }
+
+@media screen and (max-width:500px){
+    div.hero-content-heading p {
+        position: absolute;
+        left: 30px;
+    }
+
+    div.hero-content-heading h3 {
+        position: absolute;
+        left: 30px;
+        top: 120px;
+    }
+
+    div.hero-content-btn a {
+        position: absolute;
+        top: 350px;
+    }
+}
+
 
 div.snapshot-team {
     background: #f0f0f0;
@@ -327,13 +357,13 @@ div.box1 h5 {
     }
 
     div.box1 {
-        width: 300px;
+        width: 280px;
         height: 300px;
         
     }
 
     div.box3 {
-        width: 300px;
+        width: 280px;
         height: 300px;
     
     }
@@ -346,12 +376,18 @@ div.box1 h5 {
 
     div.snapshot-team p {
         color: #A6A5AA;
-        font-size: 1rem;
+        font-size: 0.8rem;
         letter-spacing: 2px;
         padding-top: 0.8rem;
     }
 
+    div.snapshot-team h4 {
+        font-size: 1.2rem;
+    }
+    
+
 }
+
 
 
 div.gallery-section {
