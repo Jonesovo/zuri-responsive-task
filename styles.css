@@ -70,6 +70,8 @@ ul li a:hover {
 
     .nav-links .icon {
         display: none;
+        position: relative;
+        right: 50px;
     }
 
     .nav-links .active {
@@ -79,6 +81,8 @@ ul li a:hover {
 
     .nav-links a {display: none;}
     .nav-links a.icon {
+        position: absolute;
+        right: 50px;
         float: right;
         display: block;
     }
@@ -89,7 +93,9 @@ ul li a:hover {
         top: 0;
     }
     .nav-links.responsive a {
-        float: none;
+        float: right;
+        position: relative;
+        left: 130px;
         display: block;
         text-align: left;
     }
@@ -257,12 +263,12 @@ div.hero-background-pos {
     div.hero-content-heading h3 {
         position: absolute;
         left: 30px;
-        top: 120px;
+        top: 160px;
     }
 
     div.hero-content-btn a {
         position: absolute;
-        top: 350px;
+        top: 470px;
     }
 }
 
