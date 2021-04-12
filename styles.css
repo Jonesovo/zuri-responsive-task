@@ -268,7 +268,11 @@ div.hero-background-pos {
 
     div.hero-content-btn a {
         position: absolute;
-        top: 470px;
+        top: 350px;
+    }
+
+    div.hero-section {
+        height: 450px;
     }
 }
 
