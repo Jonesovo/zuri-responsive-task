@@ -443,7 +443,7 @@ div.img img {
 /* responsive  */
 @media screen and (max-width:767px) {
     div.img img {
-    width: 350px;
+    width: 330px;
     height: 300px;
     }
 
@@ -558,7 +558,7 @@ div.footer h6 {
     input[type="text"] {
         margin-right: 3px;
         padding: 10px 20px;
-        width: 70%;
+        width: 100%;
         outline: none;
         border: 1px solid #bcc3c7;
         background: transparent;
@@ -571,7 +571,7 @@ div.footer h6 {
     input[type="email"] {
         margin-right: 3px;
         padding: 10px 20px;
-        width: 70%;
+        width: 100%;
         outline: none;
         border: 1px solid #bcc3c7;
         background: transparent;
@@ -581,7 +581,7 @@ div.footer h6 {
     }
 
     textarea {
-        width: 70%;
+        width: 100%;
         height: 200px;
         padding: 0.5rem;
         outline: none;
